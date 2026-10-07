@@ -1,5 +1,5 @@
 Commit Types
-Type	Description
+Type	Description<br>
 ✨ Feat	새로운 기능 구현
 🐛 Fix	버그 수정
 ✏️ Rename	파일, 폴더, 컴포넌트 등의 이름 변경
