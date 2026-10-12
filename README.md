@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Commit Types<br>
 Type	Description<br>
 ✨ Feat - 새로운 기능 구현<br>
@@ -12,3 +13,6 @@ Type	Description<br>
 🔧 Chore	- .gitignore, 기타 프로젝트 관리 작업<br>
 ⚡️ Perf	- 성능 개선<br>
 ⚙️ Setting	- 빌드, 패키지, 환경 설정 등 프로젝트 설정 변경
+=======
+<h1>안녕하세요 저는 송민경입니다</h1>
+>>>>>>> 3d02813bf63b4256fadc3ae4ba2d62544337c2b4
