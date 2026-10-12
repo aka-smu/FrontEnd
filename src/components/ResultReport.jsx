@@ -1,4 +1,3 @@
-
 const VERDICT = {
   violation: {
     label: '위반 가능성 높음',
@@ -35,7 +34,6 @@ const SEVERITY = {
 export default function ResultReport({ result }) {
   const v = VERDICT[result.verdict] ?? VERDICT.suspected
 
-  const date = new Date(result.analyzedAt).toLocaleString('ko-KR')
 
   return (
     <article
@@ -44,15 +42,11 @@ export default function ResultReport({ result }) {
     >
       {/* 판정 요약 */}
       <header className="border-b border-line p-6">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <span
             className={`rounded-md border px-3 py-1 text-sm font-bold ${v.cls}`}
           >
             {v.label}
-          </span>
-
-          <span className="text-sm text-ink-soft">
-            분석 시각 {date}
           </span>
         </div>
 
